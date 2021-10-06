@@ -1,5 +1,26 @@
 @import "../../assets/main.scss";
 
-.headerpc{
-background: #000;
+.headerpc {
+  background: $maincolor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin: 0.5%;
+  padding: 0.5%;
+
+  .header-logo{
+    width: 15%;
+
+    img{
+        width: 50%;
+        
+    }
+  }
+  
+  nav{
+      width: 30%;
+      display: flex;
+    justify-content: space-around;
+  }
 }

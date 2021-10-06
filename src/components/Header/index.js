@@ -12,26 +12,17 @@ function Header() {
             <img src={logo} alt="logo" />
           </Link>
         </div>
-        <div>
+        <nav>
         <Link to="/">
-          <p>ACCUEIL</p>
+          <p>Home</p>
         </Link>
         <Link to="/me/profile">
-          <p>Moi</p>
+          <p>Contact</p>
         </Link>
         <Link to="/me/profile">
-          <p>Moi</p>
+          <p>Shop</p>
         </Link>
-        <Link to="/me/profile">
-          <p>Moi</p>
-        </Link>
-        <Link to="/me/profile">
-          <p>Moi</p>
-        </Link>
-        <Link to="/me/profile">
-          <p>Moi</p>
-        </Link>
-        </div>
+        </nav>
       </section>
     </header>
   );
