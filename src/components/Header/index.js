@@ -13,15 +13,15 @@ function Header() {
           </Link>
         </div>
         <nav>
-        <Link to="/">
-          <p>Home</p>
-        </Link>
-        <Link to="/me/profile">
-          <p>Contact</p>
-        </Link>
-        <Link to="/me/profile">
-          <p>Shop</p>
-        </Link>
+          <Link to="/">
+            <p>Home</p>
+          </Link>
+          <Link to="/me/profile">
+            <p>Contact</p>
+          </Link>
+          <Link to="/me/profile">
+            <p>Shop</p>
+          </Link>
         </nav>
       </section>
     </header>

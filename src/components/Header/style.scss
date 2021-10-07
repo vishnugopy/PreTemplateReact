@@ -10,30 +10,28 @@
   padding: 0.5%;
   box-shadow: inset 0px 0px 18px -1px rgba(0, 0, 0, 0.116);
 
-  .header-logo{
+  .header-logo {
     width: 15%;
 
-    img{
-        width: 50%;
-     &:hover{
+    img {
+      width: 50%;
+      &:hover {
         cursor: pointer;
-
-     }
-    }   
+      }
     }
-  
-  
-  nav{
-      width: 30%;
-      display: flex;
+  }
+
+  nav {
+    width: 30%;
+    display: flex;
     justify-content: space-around;
   }
 
-  a{
-      color: $black;
+  a {
+    color: $black;
 
-      &:hover{
-        color: $maincolor;
-      }
+    &:hover {
+      color: $maincolor;
+    }
   }
 }
