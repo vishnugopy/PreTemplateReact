@@ -20,11 +20,17 @@ $firstbreakpoint: 1024px;
   font-family: "Montserrat", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 3vh;
   font-weight: 600;
   @extend %fontExo;
-  margin: 3% 0%;
+  margin: 1% 0%;
 }
 
 h2 {
@@ -74,7 +80,7 @@ main {
 }
 
 section {
-  margin: 1% auto;
+  margin: 0 auto;
 }
 
 a{

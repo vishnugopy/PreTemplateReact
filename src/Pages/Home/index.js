@@ -4,7 +4,7 @@ import HomeSection from "../../components/Headsection";
 function Home() {
   return (
     <section>
-   <HomeSection/>
+      <HomeSection />
     </section>
   );
 }
