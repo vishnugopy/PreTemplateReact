@@ -1,6 +1,7 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
 
+
 import logo from "../../assets/img/logo.png";
 
 function Header() {
@@ -9,7 +10,8 @@ function Header() {
       <section className="headerpc">
         <div className="header-logo">
           <Link to="/">
-            <img src={logo} alt="logo" />
+            {/* <img src={logo} alt="logo" /> */}
+            <h1>Subathra Ocean Of Foods</h1>
           </Link>
         </div>
         <nav>
