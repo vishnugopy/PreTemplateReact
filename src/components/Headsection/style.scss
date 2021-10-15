@@ -29,4 +29,11 @@
     font-weight: normal;
     text-align: center;
   }
+
+  .buttons{
+      margin: 2% auto;
+      display: flex;
+      width: 40%;
+      justify-content: space-around;
+  }
 }

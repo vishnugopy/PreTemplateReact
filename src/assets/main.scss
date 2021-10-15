@@ -1,4 +1,4 @@
-$maincolor: #ff000078;
+$maincolor: #ff2566;
 $darkmaincolor: #ff4141;
 $lightmaincolor: #f1fcff;
 $black: #000000;
@@ -85,4 +85,37 @@ section {
 
 a{
 text-decoration: none;
+}
+
+.mainbutton{
+  background: $maincolor;
+  border: 1px solid $white;
+  color: $white;
+  padding: 1% 3%;
+  width: 50%;
+  margin: 1% 2%;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+
+  &:hover {
+    background: $white;
+    color: $maincolor;
+  }
+}
+
+.subbutton{
+  background: transparent;
+  border: 1px solid $white;
+  color: $white;
+  padding: 1% 3%;
+  width: 50%;
+  margin: 1% 2%;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  &:hover {
+    background: $white;
+    color: $maincolor;
+  }
 }
