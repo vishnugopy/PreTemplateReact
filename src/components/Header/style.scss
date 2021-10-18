@@ -33,7 +33,18 @@
 
 @media only screen and (max-width: $firstbreakpoint) {
   .headerphone{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5% 0%;
+    position: fixed;
+    background-color: $maincolor;
+    color: $secondarycolor;
+
+    a{
+      color: $black;
+    }
   }
 
   .headerpc {

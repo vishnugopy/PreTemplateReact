@@ -1,7 +1,6 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
 
-
 function Header() {
   return (
     <header>
@@ -25,16 +24,9 @@ function Header() {
       </section>
 
       <section className="headerphone">
-        <div className="header-logo">
-          <Link to="/">
-            <h1>Restaurant Bathra</h1>
-          </Link>
+        <div className="">
+          <h1>Restaurant Bathra</h1>
         </div>
-        <nav>
-          <Link to="/">
-            <p>Home</p>
-          </Link>
-        </nav>
       </section>
     </header>
   );

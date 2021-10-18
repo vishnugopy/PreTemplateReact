@@ -58,6 +58,7 @@
 
 @media only screen and (max-width: $firstbreakpoint) {
   .mainsection {
+    padding-top: 10vh;
     flex-direction: column;
    .first{
     order: 2;
