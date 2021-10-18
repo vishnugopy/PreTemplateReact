@@ -2,15 +2,13 @@ import "./style.scss";
 import { Link } from "react-router-dom";
 
 
-import logo from "../../assets/img/logo.png";
-
 function Header() {
   return (
     <header>
       <section className="headerpc">
         <div className="header-logo">
           <Link to="/">
-            {/* <img src={logo} alt="logo" /> */}
+      
             <h1>Restaurant Bathra</h1>
           </Link>
         </div>
