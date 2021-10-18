@@ -1,13 +1,10 @@
-$maincolor: #fff025;
+$maincolor: #f9f6e7;
 $darkmaincolor: #fbff00;
-$lightmaincolor: #f1fcff;
+$secondarycolor: #fb5555;
 $black: #000000;
 $white: #ffffff;
 $whitesmoke: whitesmoke;
-$grey: #bbbbbb;
-$darkgrey: #1f1f1f;
 $firstbreakpoint: 1024px;
-
 
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
@@ -28,7 +25,7 @@ $firstbreakpoint: 1024px;
 
 h1 {
   font-size: 3vh;
-  font-weight: 600;
+  font-weight: 500;
   @extend %fontExo;
   margin: 1% 0%;
 }
@@ -43,11 +40,6 @@ h3 {
   font-size: 1.8vh;
   font-weight: 700;
   @extend %fontMonts;
-  color: $darkmaincolor;
-  border-bottom: 3px solid $darkmaincolor;
-  margin: 3% 0% 3% 0%;
-  width: max-content;
-  padding: 0.5% 0%;
 }
 
 p,
@@ -88,16 +80,15 @@ text-decoration: none;
 }
 
 .mainbutton{
-  background: $maincolor;
+  background: $secondarycolor;
   border: 2px solid $maincolor;
-  color: $black;
+  color: $white;
   padding: 1% 3%;
   width: 50%;
-  margin: 1% 2%;
+  margin: 1% 2% 1% 0%;
   height: 5vh;
   text-align: center;
   font-weight: bold;
-  border-radius: 5px;
 
   &:hover {
     border: 2px solid transparent;
@@ -108,15 +99,14 @@ text-decoration: none;
 
 .subbutton{
   background: transparent;
-  border: 2px solid $maincolor;
-  color: $maincolor;
+  border: 2px solid $secondarycolor;
+  color: $secondarycolor;
   padding: 1% 3%;
   height: 5vh;
   width: 50%;
-  margin: 1% 2%;
+  margin: 1% 2% 1% 0%;
   text-align: center;
   font-weight: bold;
-  border-radius: 5px;
   &:hover {
     border: 2px solid transparent;
     background: $black;

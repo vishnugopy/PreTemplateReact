@@ -1,17 +1,17 @@
 @import "../../assets/main.scss";
 
 .headerpc {
-  background: $black;
+  background: $maincolor;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1% 0.5%;
-  box-shadow: inset 0px 0px 18px -1px rgba(0, 0, 0, 0.116);
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   width: 100%;
   margin: 0% auto;
+ 
   
 
   .header-logo {
@@ -33,7 +33,7 @@
   }
 
   a {
-    color: $white;
+    color: $black;
     font-weight: 500;
 
     &:hover {
