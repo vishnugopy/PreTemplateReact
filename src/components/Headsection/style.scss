@@ -27,10 +27,15 @@
     }
 
     .buttons {
-      margin: 1% 0;
+      margin: 4% 0;
       display: flex;
-      width: 80%;
+      width: 100%;
       justify-content: space-around;
+    }
+
+    p{
+      letter-spacing: 0.2em;
+      font-weight: 400;
     }
   }
 
@@ -38,7 +43,7 @@
     width: 50%;
     .photobox{
       background: #000;
-      width: 60vh;
+      width: 90%;
       height: 60vh;
       margin: 0% 0% 0% auto;
       background-size: cover;
@@ -49,3 +54,26 @@
     
   }
 }
+
+
+@media only screen and (max-width: $firstbreakpoint) {
+  .mainsection {
+    flex-direction: column;
+   .first{
+    order: 2;
+     width: 100%;
+     h2{
+       letter-spacing: 0.1em;
+     }
+   }
+   .seconde{
+     order: 1;
+     width: 100%;
+     .photobox{
+        width: 100%;
+
+      }
+     }
+   }
+  
+  }

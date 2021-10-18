@@ -8,7 +8,6 @@ function Header() {
       <section className="headerpc">
         <div className="header-logo">
           <Link to="/">
-      
             <h1>Restaurant Bathra</h1>
           </Link>
         </div>
@@ -21,6 +20,19 @@ function Header() {
           </Link>
           <Link to="/me/profile">
             <p>Shop</p>
+          </Link>
+        </nav>
+      </section>
+
+      <section className="headerphone">
+        <div className="header-logo">
+          <Link to="/">
+            <h1>Restaurant Bathra</h1>
+          </Link>
+        </div>
+        <nav>
+          <Link to="/">
+            <p>Home</p>
           </Link>
         </nav>
       </section>

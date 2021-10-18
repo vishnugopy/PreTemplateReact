@@ -16,6 +16,14 @@ function HeadSection() {
             Call Us
           </a>
         </div>
+        <div>
+          <p>
+            Our restaurant is specialized in Indian and French cuisine, as we
+            come from Asia and now live in France. Food is one of the main ways
+            for a person to enjoy life. So come and visit us, eat, drink and
+            enjoy.
+          </p>
+        </div>
       </div>
       <div className="seconde">
         <div className="photobox"></div>

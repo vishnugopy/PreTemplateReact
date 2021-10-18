@@ -1,5 +1,7 @@
 @import "../../assets/main.scss";
-
+.headerphone{
+  display: none;
+}
 .headerpc {
   display: flex;
   justify-content: space-between;
@@ -12,17 +14,6 @@
   margin: 0% auto;
  
   
-
-  .header-logo {
-    width: 30%;
-
-    img {
-      width: 50%;
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
 
   nav {
     width: 30%;
@@ -37,5 +28,15 @@
     &:hover {
       color: $secondarycolor;
     }
+  }
+}
+
+@media only screen and (max-width: $firstbreakpoint) {
+  .headerphone{
+    display: block;
+  }
+
+  .headerpc {
+    display: none;
   }
 }
