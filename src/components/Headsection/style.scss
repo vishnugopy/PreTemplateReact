@@ -1,39 +1,37 @@
 @import "../../assets/main.scss";
 
-
 .mainsection {
-  background:rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   padding: 0.5%;
-  box-shadow: inset 0px 0px 18px -1px rgba(0, 0, 0, 0.116);
   padding: 8% 2%;
   height: 70vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0 0 15px 15px;
-  color: white;
   background-image: url(../../assets/img/1.jpg);
   background-blend-mode: overlay;
   background-position: center;
 
-  h1 {
-    font-size: 6vh;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+  .mainleft {
+    width: 50%;
+    h1 {
+      font-size: 8vh;
+      color: white;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    h2 {
+      font-size: 3vh;
+      color: white;
+      font-weight: normal;
+      text-align: left;
+    }
   }
 
-  h2 {
-    color: white;
-    font-weight: normal;
-    text-align: center;
-  }
-
-  .buttons{
-      margin: 2% auto;
-      display: flex;
-      width: 40%;
-      justify-content: space-around;
+  .buttons {
+    margin: 1% 0;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
   }
 }

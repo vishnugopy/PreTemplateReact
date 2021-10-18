@@ -1,11 +1,10 @@
 @import "../../assets/main.scss";
 
 .headerpc {
-  background: $white;
+  background: $black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 0 0 15px 15px;
   padding: 1% 0.5%;
   box-shadow: inset 0px 0px 18px -1px rgba(0, 0, 0, 0.116);
   position: fixed;
@@ -13,6 +12,7 @@
   left: 0;
   width: 100%;
   margin: 0% auto;
+  
 
   .header-logo {
     width: 30%;
@@ -33,7 +33,8 @@
   }
 
   a {
-    color: $black;
+    color: $white;
+    font-weight: 500;
 
     &:hover {
       color: $maincolor;

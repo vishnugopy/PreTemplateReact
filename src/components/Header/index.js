@@ -11,7 +11,7 @@ function Header() {
         <div className="header-logo">
           <Link to="/">
             {/* <img src={logo} alt="logo" /> */}
-            <h1>Subathra Ocean Of Foods</h1>
+            <h1>Restaurant Bathra</h1>
           </Link>
         </div>
         <nav>
