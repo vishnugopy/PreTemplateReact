@@ -9,10 +9,10 @@ function HeadSection() {
           <h2>Eat-Drink-Visit-Enjoy</h2>
         </div>
         <div className="buttons">
-          <a href="" className="mainbutton">
+          <a href="https://goo.gl/maps/8ws6uYBZ6DEztct19" className="mainbutton">
             Visit Us
           </a>
-          <a href="tel:076" className="subbutton">
+          <a href="tel:" className="subbutton">
             Call Us
           </a>
         </div>
