@@ -13,7 +13,7 @@ function Takeorder() {
             Take your order from Uber Eats and get it delivered to your
             doorstep. Enjoy your meal at your home.
           </p>
-          <a className="commandebutton" href="">Take Order</a>
+          <a className="commandebutton" href="https://www.ubereats.com/fr/">Take Order</a>
         </div>
 
         <div className="imgcontainer">
@@ -30,7 +30,7 @@ function Takeorder() {
             Take your order from Delivroo and get it delivered to your
             doorstep. Enjoy your meal at your home.
           </p>
-          <a className="commandebutton" href="">Take Order</a>
+          <a className="commandebutton" href="https://deliveroo.fr/fr/">Take Order</a>
         </div>
 
         <div className="imgcontainer">

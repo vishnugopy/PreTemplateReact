@@ -6,9 +6,14 @@ function Home() {
  const bgcolorlist = ["#f9f6e7", "#e7f9e7" , "#f9eae7" , "#e7f9f9" , "#e9e7f9" , "#f7e7f9" , "#f9e7e8"];
 
  window.onload = function(){
-  var arr = document.querySelector("body");
+  var body = document.querySelector("body");
+  var header = document.querySelector(".headerphone");
+  
+
   for(var i=0;i<bgcolorlist.length;i++){
-       arr.style.background = bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]
+    let color = bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]
+       body.style.background = color;
+       header.style.background = color;
   }
 }
 
