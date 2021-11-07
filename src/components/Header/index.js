@@ -1,31 +1,39 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
 
+import logo from '../../assets/img/logoblack.svg';
+
 function Header() {
   return (
     <header>
       <section className="headerpc">
         <div className="header-logo">
           <Link to="/">
-            <h1>Restaurant Bathra</h1>
+            <img className="mainlogo" src={logo} alt="Logo" />
           </Link>
+          <div className="tagname">
+            <h1>Resto</h1>
+            <h1>Bathra</h1>
+            </div>
         </div>
         <nav>
           <Link to="/">
             <p>Home</p>
           </Link>
-          <Link to="/me/profile">
-            <p>Contact</p>
+          <Link to="#order">
+            <p>Take Order</p>
           </Link>
-          <Link to="/me/profile">
-            <p>Shop</p>
+          <Link to="#contact">
+            <p>Contact</p>
           </Link>
         </nav>
       </section>
 
       <section className="headerphone">
-        <div className="">
-          <h1>Restaurant Bathra</h1>
+      <div className="">
+          <Link to="/">
+            <img className="mainlogo" src={logo} alt="Logo" />
+          </Link>
         </div>
       </section>
     </header>

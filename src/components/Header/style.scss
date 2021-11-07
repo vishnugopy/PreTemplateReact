@@ -1,5 +1,40 @@
 @import "../../assets/main.scss";
-.headerphone{
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22vh;
+
+  a{
+    display: flex;
+    .mainlogo {
+      width: 100%;
+      height:auto;
+      margin-top: auto;
+      margin-bottom: 0;
+     
+  
+      &:hover {
+        cursor: pointer;
+        filter: opacity(0.7);
+        transition: 0.3s;
+      }
+  
+      
+    }
+  }
+  
+
+
+  .tagname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+.headerphone {
   display: none;
 }
 .headerpc {
@@ -12,8 +47,6 @@
   left: 0;
   width: 85%;
   margin: 0% auto;
- 
-  
 
   nav {
     width: 30%;
@@ -32,7 +65,7 @@
 }
 
 @media only screen and (max-width: $firstbreakpoint) {
-  .headerphone{
+  .headerphone {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +75,13 @@
     background-color: $maincolor;
     color: $secondarycolor;
 
-    a{
+    a {
       color: $black;
+    }
+
+    .mainlogo {
+      width: 10vh;
+      height: auto;
     }
   }
 

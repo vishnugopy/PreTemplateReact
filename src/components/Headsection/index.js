@@ -12,7 +12,7 @@ function HeadSection() {
           <a href="https://goo.gl/maps/8ws6uYBZ6DEztct19" className="mainbutton">
             Visit Us
           </a>
-          <a href="tel:" className="subbutton">
+          <a href="tel:0183955841" className="subbutton">
             Call Us
           </a>
         </div>
