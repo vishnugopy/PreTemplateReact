@@ -62,7 +62,7 @@ p {
 
 // style for main
 main {
-  width: 60%;
+  width: 86%;
   margin: 6% auto;
 }
 
@@ -83,7 +83,6 @@ a {
   padding: 1% 3%;
   width: 50%;
   margin: 1% 2% 1% 0%;
-  height: 5vh;
   text-align: center;
   font-weight: bold;
 
@@ -101,9 +100,26 @@ a {
   border: 2px solid $secondarycolor;
   color: $secondarycolor;
   padding: 1% 3%;
-  height: 5vh;
   width: 50%;
   margin: 1% 2% 1% 0%;
+  text-align: center;
+  font-weight: bold;
+  &:hover {
+    border: 2px solid transparent;
+    background: $black;
+    color: $maincolor;
+  }
+}
+
+.commandebutton {
+  border-radius: 5px;
+  letter-spacing: 0.15em;
+  background: $white;
+  border: 2px solid $white;
+  color: $black;
+  padding: 1% 5%;
+  margin: 3% 0%;
+  width: 40%;
   text-align: center;
   font-weight: bold;
   &:hover {

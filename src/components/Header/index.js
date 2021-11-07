@@ -17,14 +17,14 @@ function Header() {
             </div>
         </div>
         <nav>
-          <Link to="/">
-            <p>Home</p>
-          </Link>
           <Link to="#order">
             <p>Take Order</p>
           </Link>
           <Link to="#contact">
             <p>Contact</p>
+          </Link>
+          <Link to="#about">
+            <p>About</p>
           </Link>
         </nav>
       </section>

@@ -1,0 +1,50 @@
+@import "../../assets/main.scss";
+
+.takeorder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  .specialad {
+    margin: auto 1%;
+    height: 40%;
+    width: 50%;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 3%;
+
+    .textcontainer {
+      width: 70%;
+      margin: auto 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+
+    .imgcontainer {
+      width: 25%;
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.uber {
+  background: #3fc060;
+}
+
+.delivro {
+  background: #00cdbc;
+}
+
+@media only screen and (max-width: $firstbreakpoint) {
+  .takeorder {
+    background: white;
+  }
+}
