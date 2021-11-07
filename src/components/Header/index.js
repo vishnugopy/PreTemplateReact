@@ -8,23 +8,17 @@ function Header() {
     <header>
       <section className="headerpc">
         <div className="header-logo">
-          <Link to="/">
+          <Link to="/" className="clicablelogo">
             <img className="mainlogo" src={logo} alt="Logo" />
+            <h1 className="tagname">Resto Bathra</h1>
           </Link>
-          <div className="tagname">
-            <h1>Resto</h1>
-            <h1>Bathra</h1>
-            </div>
         </div>
         <nav>
-          <Link to="#order">
-            <p>Take Order</p>
+          <Link to="https://www.instagram.com/restobathra/?hl=fr">
+            <p>Instagram</p>
           </Link>
-          <Link to="#contact">
-            <p>Contact</p>
-          </Link>
-          <Link to="#about">
-            <p>About</p>
+          <Link to="https://www.tiktok.com/@restobathra?">
+            <p>Tiktok</p>
           </Link>
         </nav>
       </section>
@@ -33,6 +27,7 @@ function Header() {
       <div className="">
           <Link to="/">
             <img className="mainlogo" src={logo} alt="Logo" />
+            <h1 className="tagname">Resto Bathra</h1>
           </Link>
         </div>
       </section>

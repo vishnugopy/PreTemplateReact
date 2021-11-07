@@ -3,36 +3,32 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 22vh;
+  width: 50%;
 
-  a{
+  .clicablelogo {
+    width: 50%;
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: $secondarycolor;
+
     .mainlogo {
-      width: 100%;
-      height:auto;
-      margin-top: auto;
-      margin-bottom: 0;
-     
-  
-      &:hover {
-        cursor: pointer;
-        filter: opacity(0.7);
-        transition: 0.3s;
+      width: 10%;
+      height: auto;
+      margin: 0% 2% 0% 0%;
+
+      :hover{
+        filter: url(../../assets/img/logoblack.svg);
       }
-  
-      
     }
+
+    
   }
+
   
-
-
-  .tagname{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-  }
 }
+
+
 
 .headerphone {
   display: none;
@@ -49,7 +45,7 @@
   margin: 0% auto;
 
   nav {
-    width: 30%;
+    width: 15%;
     display: flex;
     justify-content: space-between;
   }
@@ -76,12 +72,15 @@
     color: $secondarycolor;
 
     a {
-      color: $black;
+      color: $secondarycolor;
+      display: flex;
+      flex-direction: column;
     }
 
     .mainlogo {
       width: 10vh;
       height: auto;
+      margin: 0 auto;
     }
   }
 
