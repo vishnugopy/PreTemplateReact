@@ -45,6 +45,27 @@
 
 @media only screen and (max-width: $firstbreakpoint) {
   .takeorder {
+    flex-direction: column;
     background: white;
+
+    .specialad {
+      width: 100%;
+      margin: 1% auto;
+      padding: 2% 1%;
+      flex-direction: column;
+
+      .textcontainer {
+        order: 2;
+      }
+  
+      .imgcontainer {
+        order: 1;
+        }
+
+
+        .commandebutton{
+          width: 100%;
+        }
+    }
   }
 }

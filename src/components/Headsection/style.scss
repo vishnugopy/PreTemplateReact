@@ -2,17 +2,17 @@
 
 .mainsection {
   padding: 4% 0%;
-  height: 70vh;
+  height: auto;
   display: flex;
   flex-direction: row;
   width: 85%;
 
   .first {
     width: 50%;
-    height: 50vh;
+    height: auto;
 
     h1 {
-      font-size: 8vh;
+      font-size: 6vh;
       font-weight: 500;
       text-align: left;
       margin-bottom: 5%;
@@ -58,7 +58,6 @@
 
 @media only screen and (max-width: $firstbreakpoint) {
   .mainsection {
-    padding-top: 10vh;
     flex-direction: column;
    .first{
     order: 2;

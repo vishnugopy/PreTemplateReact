@@ -5,7 +5,8 @@ import delivroo from '../../assets/img/delivroo.png';
 
 function Takeorder() {
   return (
-    <section className="takeorder" id="#order">
+    <section className="takeorder" id="order">
+      
       <div className="specialad uber">
         <div className="textcontainer ">
           <p>

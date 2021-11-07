@@ -6,12 +6,9 @@ function Home() {
   return (
     <section>
       <HomeSection />
-
       <main>
-      <Takeorder/>
+        <Takeorder />
       </main>
-
-     
     </section>
   );
 }
