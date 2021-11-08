@@ -6,29 +6,23 @@
   width: 50%;
 
   .clicablelogo {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     color: $secondarycolor;
 
     .mainlogo {
-      width: 10%;
-      height: auto;
+      width: 5vh;
+      height: 100%;
       margin: 0% 2% 0% 0%;
 
-      :hover{
+      :hover {
         filter: url(../../assets/img/logoblack.svg);
       }
     }
-
-    
   }
-
-  
 }
-
-
 
 .headerphone {
   display: none;
@@ -47,13 +41,16 @@
   nav {
     width: 15%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
+    a{
+      margin: 0% 10%;
+    }
   }
 
   a {
     color: $black;
     font-weight: 500;
-
     &:hover {
       color: $secondarycolor;
     }
