@@ -14,12 +14,12 @@ function Header() {
           </Link>
         </div>
         <nav>
-          <Link to="https://www.instagram.com/restobathra/?hl=fr">
+          <a herf="https://www.instagram.com/restobathra/?hl=fr">
             <p>Instagram</p>
-          </Link>
-          <Link to="https://www.tiktok.com/@restobathra?">
+          </a>
+          <a herf="https://www.tiktok.com/@restobathra?">
             <p>Tiktok</p>
-          </Link>
+          </a>
         </nav>
       </section>
 
