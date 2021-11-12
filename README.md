@@ -1,4 +1,4 @@
 # Visit our website
 
-[restobathra.com]
+restobathra.com
 
