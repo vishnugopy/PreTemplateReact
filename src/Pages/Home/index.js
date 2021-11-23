@@ -1,6 +1,7 @@
 import "./style.scss";
 import HomeSection from "../../components/Headsection";
 import Takeorder from "../../components/Takeorder";
+import Menu from "../../components/Menu";
 
 function Home() {
  const bgcolorlist = ["#f9f6e7", "#e7f9e7" , "#f9eae7" , "#e7f9f9" , "#e9e7f9" , "#f7e7f9" , "#f9e7e8"];
@@ -22,6 +23,7 @@ function Home() {
       <HomeSection />
       <main>
         <Takeorder />
+        <Menu />
       </main>
     </section>
   );

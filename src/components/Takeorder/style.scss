@@ -3,16 +3,15 @@
 .takeorder {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
 
   .specialad {
-    margin: auto 1%;
+    margin: auto auto;
     height: 40%;
     width: 50%;
     display: flex;
-    border-radius: 5px;
     justify-content: space-between;
     align-items: center;
     padding: 2% 3%;
